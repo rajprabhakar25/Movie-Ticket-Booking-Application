@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="d-flex flex-wrap justify-content-between">
+    <div class="card-container" *ngFor="let booking of userBookings">
+      <div class="card">
+        <h4>Movie Name: {{ booking.movieName }}</h4>
+        <h5>Theatre Name: {{ booking.theatreName }}</h5>
+        <p>Show Date: {{ booking.showDate }}</p>
+        <p>Show Time: {{ booking.showTime }}</p>
+        <p>Selected Seats: {{ booking.selectedSeats }}</p>
+      </div>
+    </div>
+    <div *ngIf="userBookings.length == 0">
+      <h1>No Bookings available</h1>
+    </div>
+  </div>
+</div>

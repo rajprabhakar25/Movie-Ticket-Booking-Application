@@ -1,0 +1,97 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 d-flex justify-content-between">
+      <h1>Available Movies</h1>
+      <button
+        type="button"
+        id="addEmployeeBtn"
+        style="height: 80%"
+        class="btn btn-primary"
+        [routerLink]="['/admin-dashboard/admin/movie-form']"
+      >
+        <i style="cursor: pointer; margin-right: 5px" class="fa fa-plus"></i>
+        Add a Movie
+      </button>
+    </div>
+
+    <div class="table-responsive mt-5">
+      <table
+        id="myTable"
+        class="table table-hover table-striped table-bordered"
+      >
+        <thead class="table-primary">
+          <tr>
+            <th>S.No.</th>
+            <th>Movie Name</th>
+            <th>Genre</th>
+            <th>Duration (in mins)</th>
+            <th>Release Date</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let data of moviesData; let i = index">
+            <td>{{ i + 1 }}</td>
+            <td>{{ data.movieName }}</td>
+            <td>{{ data.genre }}</td>
+            <td>{{ data.duration }}</td>
+            <td>{{ data.releaseDate }}</td>
+            <td>
+              <i
+                style="cursor: pointer; color: green; margin-right: 20px"
+                class="fa fa-edit"
+                (click)="editItem(data.movieId)"
+              ></i>
+              <i
+                style="cursor: pointer; color: red"
+                class="fa fa-trash"
+                (click)="deleteItem(data.movieId)"
+              ></i>
+              <div
+                class="modal fade"
+                id="alert"
+                tabindex="-1"
+                #deleteModal
+                aria-labelledby="alertLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-dialog-centered modal-sm">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1
+                        class="modal-title fs-5"
+                        style="font-weight: 700"
+                        id="exampleModalLabel"
+                      >
+                        Warning
+                      </h1>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body" style="font-size: large">
+                      Are you sure to delete the movie?
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        No
+                      </button>
+                      <button type="button" class="btn btn-danger">Yes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

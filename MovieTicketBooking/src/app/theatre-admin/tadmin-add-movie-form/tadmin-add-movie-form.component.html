@@ -1,0 +1,112 @@
+<div class="container">
+  <button
+    class="btn btn-primary"
+    [routerLink]="['/tadmin-dashboard/tadmin/home']"
+  >
+    Back to Dashboard
+  </button>
+  <div class="row">
+    <div class="col-3"></div>
+    <div class="col-6">
+      <form [formGroup]="formData" (ngSubmit)="onSubmit()" class="mx-auto">
+        <h4 class="text-center">
+          {{ isEditMode ? "Edit Screen Timing" : "Add Screen Timing" }}
+        </h4>
+        <div class="row mt-4">
+          <div class="col-12 mb-3">
+            <label for="movieId" class="form-label"
+              >Movie Name <span style="color: red">*</span></label
+            >
+            <select
+              class="form-select form-control"
+              formControlName="movieId"
+              aria-label="Default select example"
+            >
+              <option selected disabled>-- Select a Movie --</option>
+              <option *ngFor="let movie of movieList" [value]="movie.movieId">
+                {{ movie.movieName }}
+              </option>
+              <!-- <option value="2">Two</option>
+                <option value="3">Three</option> -->
+            </select>
+            <div
+              *ngIf="
+                formData.get('movieId')?.invalid &&
+                formData.get('movieId')?.touched
+              "
+              class="text-danger text-end"
+            >
+              <small *ngIf="formData.get('movieId')?.errors?.['required']"
+                >Movie Name is required</small
+              >
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-3">
+            <label for="showTime" class="form-label"
+              >Show Date and Time <span style="color: red">*</span></label
+            >
+            <input
+              type="datetime-local"
+              class="form-control"
+              id="showTime"
+              name="showTime"
+              formControlName="showTime"
+            />
+            <div
+              *ngIf="
+                formData.get('showTime')?.invalid &&
+                formData.get('showTime')?.touched
+              "
+              class="text-danger text-end"
+            >
+              <small *ngIf="formData.get('showTime')?.errors?.['required']"
+                >Show Date and Time is required</small
+              >
+              <small *ngIf="formData.get('showTime')?.errors?.['invalidDate']"
+                >Show Date and Time should be in future</small
+              >
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-3">
+            <label for="availableSeats" class="form-label"
+              >Available Seats <span style="color: red">*</span></label
+            >
+            <input
+              type="number"
+              class="form-control"
+              id="availableSeats"
+              name="availableSeats"
+              formControlName="availableSeats"
+            />
+            <div
+              *ngIf="
+                formData.get('availableSeats')?.invalid &&
+                formData.get('availableSeats')?.touched
+              "
+              class="text-danger text-end"
+            >
+              <small
+                *ngIf="formData.get('availableSeats')?.errors?.['required']"
+                >Available Seats is required</small
+              >
+              <small *ngIf="formData.get('availableSeats')?.errors?.['max']"
+                >Available Seats should be minimum 100 seats</small
+              >
+            </div>
+          </div>
+
+          <div style="width: 100%" class="d-flex justify-content-center">
+            <input
+              class="btn btn-primary mt-3"
+              style="width: 40%; border-radius: 5px"
+              [disabled]="formData.invalid"
+              type="submit"
+              value="Submit"
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="col-3"></div>
+  </div>
+</div>

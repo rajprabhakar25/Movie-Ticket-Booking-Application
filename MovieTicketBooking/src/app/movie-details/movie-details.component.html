@@ -1,0 +1,48 @@
+<div>
+  <div class="container">
+    <div *ngIf="movie">
+      <div class="content-container">
+        <img [src]="movie.image" alt="{{ movie.movieName }}" />
+        <div class="title-content">
+          <h2 class="mt-4">{{ movie.movieName }}</h2>
+        </div>
+      </div>
+      <div class="theatre-list" *ngIf="filteredTheatres.length > 0">
+        <h4>Available Theatres and Show Timings</h4>
+        <div
+          *ngFor="let theatre of filteredTheatres"
+          class="theatre-card theatre-info"
+        >
+          <h5>{{ theatre.theatreName }}</h5>
+          <div class="timing-buttons">
+            <button
+              *ngFor="let time of getTheatreTimings(theatre.theatreId)"
+              class="btn btn-outline-primary m-1"
+              (click)="
+                selectTiming(
+                  time.timingId,
+                  intMovieId,
+                  theatre.theatreId,
+                  theatre.theatreName,
+                  time.showTime,
+                  time.availableSeats,
+                  movie.movieName
+                )
+              "
+            >
+              {{ formatShowTime(time.showTime) }}
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div *ngIf="filteredTheatres.length === 0">
+        <p>No theatres available for this movie.</p>
+      </div>
+      <div *ngIf="bookedSeats[selectedTime] && timeDifferenceInMinutes <= 15">
+        <p>Booked Ticket: {{ bookedSeatNumbers }}</p>
+        <p>Time Left for Movie to Start: {{ minutesLeft }} minutes</p>
+      </div>
+    </div>
+  </div>
+</div>

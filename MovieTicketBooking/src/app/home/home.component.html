@@ -1,0 +1,37 @@
+<div>
+  <div class="container pt-5">
+    <h2>Welcome, {{ userName || "Guest" }}!</h2>
+
+    <div class="featured-movies mt-4">
+      <div class="d-flex justify-content-between">
+        <h3>Recommended Movies</h3>
+        <a [routerLink]="['/dashboard/movies']" class="btn btn-outline-primary"
+          >Explore More</a
+        >
+      </div>
+      <div class="row mt-4">
+        <div
+          class="col-lg-3 col-md-5 col-12 mb-4 card-container"
+          *ngFor="let movie of movies | slice : 0 : 4"
+        >
+          <div
+            class="card"
+            style="cursor: pointer"
+            [routerLink]="['/dashboard/movie', movie.movieId]"
+          >
+            <div class="image-container">
+              <img
+                [src]="movie.image"
+                class="card-img-top"
+                alt="{{ movie.movieName }}"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">{{ movie.movieName }}</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

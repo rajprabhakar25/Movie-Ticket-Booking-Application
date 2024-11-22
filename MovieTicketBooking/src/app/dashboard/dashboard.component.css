@@ -1,0 +1,26 @@
+.container-fluid {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.active-tab {
+  color: black !important;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.nav-link {
+  color: #333333;
+}
+
+.nav-link:hover {
+  background-color: #ffbe98;
+  color: #000000;
+}
+
+@media screen and (max-width: 576px) {
+  .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

@@ -1,0 +1,12 @@
+.container {
+  margin-top: 30px;
+}
+
+#myTable tbody tr td:last-child,
+#myTable thead tr th:last-child {
+  text-align: center;
+}
+
+.modal-header {
+  background-color: yellow;
+}

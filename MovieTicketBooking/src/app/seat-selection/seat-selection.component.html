@@ -1,0 +1,66 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-2"></div>
+    <div class="col-12 col-md-8">
+      <h5>
+        Seat Selection for {{ formatTime(showTimeInDate) }} on
+        {{ formatDate(showDateInDate) }}
+      </h5>
+      <div class="content">
+        <div class="seat-grid">
+          <div class="seat-section">
+            <p>190 Rupees Section (P)</p>
+            <div class="seat-format">
+              <button
+                *ngFor="let seat190 of seats190; let i = index"
+                [ngClass]="{ selected: isSelected(seat190) }"
+                [disabled]="isBooked(seat190)"
+                (click)="selectSeat(seat190, seat190.price)"
+              >
+                {{ i + 1 }}
+              </button>
+            </div>
+          </div>
+
+          <div class="seat-section" style="margin-top: 20px">
+            <p>60 Rupees Section (S)</p>
+            <div class="seat-format">
+              <button
+                *ngFor="let seat60 of seats60; let i = index"
+                [ngClass]="{ selected: isSelected(seat60) }"
+                [disabled]="isBooked(seat60)"
+                (click)="selectSeat(seat60, seat60.price)"
+              >
+                {{ i + 1 }}
+              </button>
+            </div>
+          </div>
+
+          <div
+            style="
+              background-color: rgb(118, 221, 255);
+              width: 50%;
+              height: 5px;
+              margin-top: 50px;
+              box-shadow: 0px -10px 20px 11px lightblue;
+            "
+          ></div>
+        </div>
+        <div class="footer">
+          <div class="total-price">
+            Total: {{ totalPrice | currency : "INR" }}
+          </div>
+          <button
+            type="button"
+            style="width: 20%"
+            class="btn btn-primary"
+            (click)="bookSeats()"
+          >
+            Confirm Selection
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-2"></div>
+  </div>
+</div>

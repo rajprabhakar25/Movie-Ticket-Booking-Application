@@ -1,0 +1,48 @@
+.container {
+  padding: 20px;
+}
+
+.card-container {
+  flex: 0 1 calc(50% - 20px);
+  margin: 10px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+h4,
+h5 {
+  margin: 0 0 10px;
+}
+
+p {
+  margin: 0 0 8px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+    flex: 0 1 calc(100% - 20px);
+  }
+}

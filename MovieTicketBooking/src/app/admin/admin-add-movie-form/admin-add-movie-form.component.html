@@ -1,0 +1,169 @@
+<div class="container">
+  <button
+    class="btn btn-primary"
+    [routerLink]="['/admin-dashboard/admin/movies']"
+  >
+    Back to Movies
+  </button>
+  <div class="row">
+    <div class="col-3"></div>
+    <div class="col-6">
+      <form [formGroup]="formData" (ngSubmit)="onSubmit()" class="mx-auto">
+        <h4 class="text-center">
+          {{ isEditMode ? "Edit Movie Details" : "Add Movie Details" }}
+        </h4>
+        <div class="row mt-4">
+          <div class="col-12 mb-3">
+            <label for="movieName" class="form-label"
+              >Movie Name <span style="color: red">*</span></label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="movieName"
+              name="movieName"
+              formControlName="movieName"
+            />
+            <div
+              *ngIf="
+                formData.get('movieName')?.invalid &&
+                formData.get('movieName')?.touched
+              "
+              class="text-danger text-end"
+            >
+              <small *ngIf="formData.get('movieName')?.errors?.['required']"
+                >Movie Name is required</small
+              >
+              <small *ngIf="formData.get('movieName')?.errors?.['minlength']"
+                >Movie Name is not valid</small
+              >
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-3">
+            <label for="genre" class="form-label"
+              >Genre <span style="color: red">*</span></label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="genre"
+              name="genre"
+              formControlName="genre"
+              placeholder="Eg: 'Action, Romance, ...'"
+            />
+            <div
+              *ngIf="
+                formData.get('genre')?.invalid && formData.get('genre')?.touched
+              "
+              class="text-danger text-end"
+            >
+              <small *ngIf="formData.get('genre')?.errors?.['required']"
+                >Genre is required</small
+              >
+              <!-- <small *ngIf="formData.get('genre')?.errors?.['pattern']"
+                  >Genre is not valid</small
+                > -->
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-3">
+            <label for="duration" class="form-label"
+              >Duration (in mins) <span style="color: red">*</span></label
+            >
+            <input
+              type="number"
+              class="form-control"
+              id="duration"
+              name="duration"
+              formControlName="duration"
+            />
+            <div
+              *ngIf="
+                formData.get('duration')?.invalid &&
+                formData.get('duration')?.touched
+              "
+              class="text-danger text-end"
+            >
+              <small *ngIf="formData.get('duration')?.errors?.['required']"
+                >Duration is required</small
+              >
+              <small *ngIf="formData.get('duration')?.errors?.['max']"
+                >Duration should be minimum 240 mins</small
+              >
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-3">
+            <label for="releaseDate" class="form-label"
+              >Release Date <span style="color: red">*</span></label
+            >
+            <input
+              type="date"
+              class="form-control"
+              id="releaseDate"
+              name="releaseDate"
+              formControlName="releaseDate"
+            />
+            <div
+              *ngIf="
+                formData.get('releaseDate')?.invalid &&
+                formData.get('releaseDate')?.touched
+              "
+              class="text-danger text-end"
+            >
+              <small *ngIf="formData.get('releaseDate')?.errors?.['required']"
+                >Release Date is required</small
+              >
+              <small
+                *ngIf="formData.get('releaseDate')?.errors?.['invalidDate']"
+                >Release Date should be in future</small
+              >
+            </div>
+          </div>
+          <div *ngIf="!isEditMode" class="col-12 col-md-6 mb-3">
+            <label for="image" class="form-label"
+              >Cover Image <span style="color: red">*</span></label
+            >
+            <input
+              type="file"
+              class="form-control"
+              id="image"
+              name="image"
+              (change)="onFileChange($event)"
+              accept="image/*"
+            />
+            <div
+              *ngIf="
+                formData.get('image')?.invalid && formData.get('image')?.touched
+              "
+              class="text-danger text-end"
+            >
+              <small *ngIf="formData.get('image')?.errors?.['required']"
+                >Image is required</small
+              >
+              <!-- <small
+                  *ngIf="formData.get('image')?.errors?.['minlength'] || formData.get('image')?.errors?.['maxlength'] || formData.get('mobileNumber')?.errors?.['pattern']"
+                  >Phone Number is Invalid</small
+                > -->
+              <!-- <small
+                  *ngIf="
+                    formData.get('contactNo')?.errors?.['invalidDate']
+                  "
+                  >DOB is Invalid</small
+                > -->
+            </div>
+          </div>
+
+          <div style="width: 100%" class="d-flex justify-content-center">
+            <input
+              class="btn btn-primary mt-3"
+              style="width: 40%; border-radius: 5px"
+              [disabled]="formData.invalid"
+              type="submit"
+              value="Submit"
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="col-3"></div>
+  </div>
+</div>

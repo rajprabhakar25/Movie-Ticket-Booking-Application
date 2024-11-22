@@ -1,0 +1,17 @@
+.container-fluid {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 576px) {
+  .container-fluid {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.active-tab {
+  color: black !important;
+  font-weight: 700;
+  border-radius: 5px;
+}

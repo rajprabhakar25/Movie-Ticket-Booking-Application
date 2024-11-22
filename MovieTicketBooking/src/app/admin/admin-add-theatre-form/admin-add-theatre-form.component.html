@@ -1,0 +1,283 @@
+<div class="container">
+  <button class="btn btn-primary" [routerLink]="['/admin-dashboard']">
+    Back to Dashboard
+  </button>
+  <div class="row">
+    <div class="col-3"></div>
+    <div class="col-6">
+      <form [formGroup]="formData" (ngSubmit)="onSubmit()" class="mx-auto">
+        <h4 class="text-center">
+          {{ isEditMode ? "Edit Theatre Details" : "Add Theatre Details" }}
+        </h4>
+        <div class="row mt-4">
+          <div class="col-12 mb-3">
+            <label for="theatreName" class="form-label"
+              >Theatre Name <span style="color: red">*</span></label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="theatreName"
+              name="theatreName"
+              formControlName="theatreName"
+            />
+            <div
+              *ngIf="
+                formData.get('theatreName')?.invalid &&
+                formData.get('theatreName')?.touched
+              "
+              class="text-danger text-end"
+            >
+              <small *ngIf="formData.get('theatreName')?.errors?.['required']"
+                >Theatre Name is required</small
+              >
+              <small *ngIf="formData.get('theatreName')?.errors?.['minlength']"
+                >Theatre Name is not valid</small
+              >
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-3">
+            <label for="location" class="form-label"
+              >Location <span style="color: red">*</span></label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="location"
+              name="location"
+              formControlName="location"
+              placeholder="Eg: 'Chennai'"
+            />
+            <div
+              *ngIf="
+                formData.get('location')?.invalid &&
+                formData.get('location')?.touched
+              "
+              class="text-danger text-end"
+            >
+              <small *ngIf="formData.get('location')?.errors?.['required']"
+                >Location is required</small
+              >
+              <small *ngIf="formData.get('location')?.errors?.['pattern']"
+                >Location is not valid</small
+              >
+            </div>
+          </div>
+          <!-- <div class="col-12 col-md-6 mb-3">
+            <label for="contactNo" class="form-label"
+              >Contact Number <span style="color: red">*</span></label
+            >
+            <input
+              type="tel"
+              class="form-control"
+              id="contactNo"
+              name="contactNo"
+              formControlName="contactNo"
+            />
+            <div
+              *ngIf="
+                formData.get('contactNo')?.invalid &&
+                formData.get('contactNo')?.touched
+              "
+              class="text-danger text-end"
+            >
+              <small *ngIf="formData.get('contactNo')?.errors?.['required']"
+                >Contact Number is required</small
+              >
+              <small
+                *ngIf="
+                  formData.get('contactNo')?.errors?.['invalidDate']
+                "
+                >DOB is Invalid</small
+              >
+            </div>
+          </div> -->
+          <div class="col-12 col-md-6 mb-3">
+            <label for="username" class="form-label"
+              >Admin Name <span style="color: red">*</span></label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="username"
+              name="username"
+              formControlName="username"
+            />
+            <div
+              *ngIf="
+                formData.get('username')?.invalid &&
+                formData.get('username')?.touched
+              "
+              class="text-danger text-end"
+            >
+              <small *ngIf="formData.get('username')?.errors?.['required']"
+                >Admin Name is required</small
+              >
+              <small
+                *ngIf="formData.get('username')?.errors?.['pattern'] || formData.get('username')?.errors?.['minlength']"
+                >Admin Name is not valid</small
+              >
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-3">
+            <label for="email" class="form-label"
+              >Admin Email <span style="color: red">*</span></label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              formControlName="email"
+              (change)="getUsers()"
+              placeholder="Eg: 'abc@gmail.com'"
+            />
+            <div
+              *ngIf="
+                formData.get('email')?.invalid && formData.get('email')?.touched
+              "
+              class="text-danger text-end"
+            >
+              <small *ngIf="formData.get('email')?.errors?.['required']"
+                >Admin Email is required</small
+              >
+              <small *ngIf="formData.get('email')?.errors?.['pattern']"
+                >Admin Email is not valid</small
+              >
+            </div>
+          </div>
+          <div class="col-12 col-md-6 mb-3">
+            <label for="mobileNumber" class="form-label"
+              >Admin Phone Number <span style="color: red">*</span></label
+            >
+            <input
+              type="tel"
+              class="form-control"
+              id="mobileNumber"
+              name="mobileNumber"
+              formControlName="mobileNumber"
+              pattern="^[0-9]{10}$"
+              placeholder="Eg: '9870989878'"
+            />
+            <div
+              *ngIf="
+                formData.get('mobileNumber')?.invalid &&
+                formData.get('mobileNumber')?.touched
+              "
+              class="text-danger text-end"
+            >
+              <small *ngIf="formData.get('mobileNumber')?.errors?.['required']"
+                >Admin Phone Number is required</small
+              >
+              <small
+                *ngIf="formData.get('mobileNumber')?.errors?.['minlength'] || formData.get('mobileNumber')?.errors?.['maxlength'] || formData.get('mobileNumber')?.errors?.['pattern']"
+                >Phone Number is Invalid</small
+              >
+              <!-- <small
+                *ngIf="
+                  formData.get('contactNo')?.errors?.['invalidDate']
+                "
+                >DOB is Invalid</small
+              > -->
+            </div>
+          </div>
+
+          <div *ngIf="!isEditMode" class="col-12 col-md-6 mb-3">
+            <label for="pass" class="form-label"
+              >Password <span style="color: red">*</span></label
+            >
+            <div style="position: relative">
+              <input
+                [type]="passType"
+                class="form-control"
+                id="password"
+                name="password"
+                formControlName="password"
+              />
+              <i
+                (click)="changePassType()"
+                *ngIf="passType == 'password' ? true : false"
+                class="fa fa-eye"
+              ></i>
+              <i
+                (click)="changePassType()"
+                *ngIf="passType == 'text' ? true : false"
+                class="fa fa-eye-slash"
+              ></i>
+            </div>
+            <div
+              *ngIf="
+                formData.get('password')?.invalid &&
+                formData.get('password')?.touched
+              "
+              class="text-danger text-start"
+            >
+              <small *ngIf="formData.get('password')?.errors?.['required']"
+                >Password is required</small
+              >
+              <small *ngIf="formData.get('password')?.errors?.['pattern']"
+                ><ul>
+                  <li>Password must contain at least one uppercase letter.</li>
+                  <li>Password must contain at least one lowercase letter.</li>
+                  <li>Password must contain at least one number.</li>
+                  <li>Password must contain at least one special character.</li>
+                  <li>Password must be at least 8 characters long.</li>
+                </ul></small
+              >
+            </div>
+          </div>
+          <div *ngIf="!isEditMode" class="col-12 col-md-6 mb-3">
+            <label for="confirmPass" class="form-label"
+              >Confirm Password <span style="color: red">*</span></label
+            >
+            <div style="position: relative">
+              <input
+                [type]="cPassType"
+                class="form-control"
+                id="confirmPass"
+                name="confirmPass"
+                formControlName="confirmPassword"
+              />
+              <i
+                (click)="changeCPassType()"
+                *ngIf="cPassType == 'password' ? true : false"
+                class="fa fa-eye"
+              ></i>
+              <i
+                (click)="changeCPassType()"
+                *ngIf="cPassType == 'text' ? true : false"
+                class="fa fa-eye-slash"
+              ></i>
+            </div>
+            <div
+              *ngIf="
+                formData.get('confirmPassword')?.invalid &&
+                formData.get('confirmPassword')?.touched
+              "
+              class="text-danger text-end"
+            >
+              <small
+                *ngIf="formData.get('confirmPassword')?.errors?.['required']"
+                >Confirm Password is required</small
+              >
+              <small *ngIf="formData.hasError('notMatching')"
+                >Password did'nt match</small
+              >
+            </div>
+          </div>
+
+          <div style="width: 100%" class="d-flex justify-content-center">
+            <input
+              class="btn btn-primary mt-3"
+              style="width: 40%; border-radius: 5px"
+              [disabled]="formData.invalid"
+              type="submit"
+              value="Submit"
+            />
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="col-3"></div>
+  </div>
+</div>

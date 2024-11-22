@@ -1,0 +1,30 @@
+<div>
+  <div class="container pt-5">
+    <div class="featured-movies mt-4">
+      <h3>List of Movies</h3>
+      <div class="row mt-4">
+        <div
+          class="col-lg-3 col-md-5 col-12 mb-4 card-container"
+          *ngFor="let movie of movies"
+        >
+          <div
+            class="card"
+            style="cursor: pointer"
+            [routerLink]="['/dashboard/movie', movie.movieId]"
+          >
+            <div class="image-container">
+              <img
+                [src]="movie.image"
+                class="card-img-top"
+                alt="{{ movie.movieName }}"
+              />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">{{ movie.movieName }}</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

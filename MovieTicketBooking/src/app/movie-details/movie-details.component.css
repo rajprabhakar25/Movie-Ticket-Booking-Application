@@ -1,0 +1,107 @@
+.content-container {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 0;
+  gap: 50px;
+}
+
+.content {
+  font-size: 20px;
+}
+
+img {
+  width: 200px;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.modal {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1050;
+}
+
+.modal-content {
+  background-color: white;
+  width: 100%;
+}
+
+.modal-dialog {
+  background-color: white;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.theatre-info {
+  margin: 20px 0;
+  border: 1px solid #2e7eff;
+  border-radius: 10px;
+  width: 70%;
+  padding: 15px;
+  transition: 0.3s;
+}
+
+.theatre-info:hover {
+  background-color: #ffbe98;
+  border: 1px solid #ffbe98;
+}
+
+.form-group {
+  width: 30%;
+}
+
+.title-content {
+  width: 40%;
+}
+
+.date-btn {
+  width: fit-content;
+  border: none;
+  border-radius: 10px;
+  line-height: 20px;
+  padding: 10px;
+  transition: 0.4s;
+}
+
+.date-btn:hover {
+  cursor: pointer;
+  background-color: #c0c0c0;
+}
+
+.selected-date {
+  background-color: #0d6efd;
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .form-group {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .theatre-info {
+    margin: 20px 0;
+    border: 1px solid #2e7eff;
+    border-radius: 10px;
+    width: 100%;
+    padding: 15px;
+    transition: 0.3s;
+  }
+  .form-group {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content-container {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .title-content {
+    width: 100%;
+  }
+}

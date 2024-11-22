@@ -1,0 +1,19 @@
+<div class="container mt-5">
+  <h2>Payment Summary</h2>
+  <h4>{{ theatreName }}</h4>
+  <h6>{{ movieName }}</h6>
+  <p>Show Time: {{ showTime }} on {{ showDate }}</p>
+  <p>Selected Seats: {{ getSelectedSeatsString() }}</p>
+  <p>Base Price: {{ totalPrice | currency : "INR" }}</p>
+  <p>
+    GST ({{ gstPercentage }}%):
+    {{ (totalPrice * gstPercentage) / 100 | currency : "INR" }}
+  </p>
+  <h4>
+    Total Price with GST: {{ getTotalAmountWithGST() | currency : "INR" }}
+  </h4>
+
+  <button class="btn btn-primary mt-4" (click)="onPaymentSuccess()">
+    Proceed to Payment
+  </button>
+</div>

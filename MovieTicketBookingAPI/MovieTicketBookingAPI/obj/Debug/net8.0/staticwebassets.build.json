@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yqRuOrvZsPxmTuMg/bfOGn0o6zIeIG94A7Ee1LdgRpU=",
+  "Source": "MovieTicketBookingAPI",
+  "BasePath": "_content/MovieTicketBookingAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,70 @@
+<div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-sm-1"></div>
+      <div class="col-12 col-sm-10">
+        <div class="row">
+          <div class="col-12 col-sm-4"></div>
+          <div class="col-12 col-sm-4">
+            <div class="e-formLogin d-flex">
+              <form class="mx-auto" (ngSubmit)="login()">
+                <h4 class="text-center">Login</h4>
+                <div class="mb-3">
+                  <label for="userName" class="form-label"
+                    >Email <span style="color: red">*</span></label
+                  >
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="email"
+                    [(ngModel)]="email"
+                    name="email"
+                    autocomplete="off"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="pass" class="form-label"
+                    >Password <span style="color: red">*</span></label
+                  >
+                  <div style="position: relative">
+                    <input
+                      [type]="type"
+                      class="form-control"
+                      id="pass"
+                      [(ngModel)]="password"
+                      name="password"
+                    />
+                    <i
+                      (click)="changeType()"
+                      *ngIf="type == 'password' ? true : false"
+                      class="fa fa-eye"
+                    ></i>
+                    <i
+                      (click)="changeType()"
+                      *ngIf="type == 'text' ? true : false"
+                      class="fa fa-eye-slash"
+                    ></i>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-warning">Login</button>
+                <p style="font-size: 14px" class="text-center text-muted mt-5">
+                  Don't have an Account?
+                </p>
+                <button
+                  type="button"
+                  [routerLink]="['/signup']"
+                  class="btn btn-primary"
+                >
+                  Sign Up
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-12 col-sm-1"></div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-4"></div>
+    </div>
+    <div class="bg-overlay"></div>
+  </div>
+</div>

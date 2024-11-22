@@ -1,0 +1,281 @@
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\appsettings.json
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\MovieTicketBookingAPI.exe
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\MovieTicketBookingAPI.deps.json
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\MovieTicketBookingAPI.runtimeconfig.json
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\MovieTicketBookingAPI.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\MovieTicketBookingAPI.pdb
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Humanizer.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.csproj.AssemblyReference.cache
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.AssemblyInfoInputs.cache
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.AssemblyInfo.cs
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.csproj.CoreCompileInputs.cache
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\staticwebassets\msbuild.MovieTicketBookingAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.MovieTicketBookingAPI.props
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MovieTicketBookingAPI.props
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MovieTicketBookingAPI.props
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\scopedcss\bundle\MovieTicketBookingAPI.styles.css
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTic.3781EC07.Up2Date
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\refint\MovieTicketBookingAPI.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.pdb
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.genruntimeconfig.cache
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\ref\MovieTicketBookingAPI.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\RajPrabhakarDharmava\source\repos\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\appsettings.Development.json
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\appsettings.json
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\MovieTicketBookingAPI.exe
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\MovieTicketBookingAPI.deps.json
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\MovieTicketBookingAPI.runtimeconfig.json
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\MovieTicketBookingAPI.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\MovieTicketBookingAPI.pdb
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Azure.Core.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Azure.Identity.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Humanizer.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.Bcl.TimeProvider.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.CodeDom.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.csproj.AssemblyReference.cache
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.AssemblyInfoInputs.cache
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.AssemblyInfo.cs
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.csproj.CoreCompileInputs.cache
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\staticwebassets.build.json
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\staticwebassets.development.json
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\staticwebassets\msbuild.MovieTicketBookingAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.MovieTicketBookingAPI.props
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MovieTicketBookingAPI.props
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MovieTicketBookingAPI.props
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\scopedcss\bundle\MovieTicketBookingAPI.styles.css
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTic.3781EC07.Up2Date
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\refint\MovieTicketBookingAPI.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.pdb
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.genruntimeconfig.cache
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\ref\MovieTicketBookingAPI.dll
+D:\Movie Ticket Booking\MovieTicketBookingAPI\MovieTicketBookingAPI\obj\Debug\net8.0\MovieTicketBookingAPI.sourcelink.json

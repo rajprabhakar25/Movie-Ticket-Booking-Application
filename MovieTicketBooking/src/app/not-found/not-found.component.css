@@ -1,0 +1,13 @@
+div {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffbe98;
+}
+
+h1 {
+  background-color: rgb(178, 255, 250);
+  padding: 20px 30px;
+  border-radius: 20px;
+}
