@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Azure;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.JsonPatch;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MovieTicketBookingAPI.DTO;
@@ -161,6 +163,49 @@ namespace MovieTicketBookingAPI.Controllers
                 return Ok();
             }
             catch(Exception err)
+            {
+                return Problem("Error: ", err.ToString());
+            }
+        }
+
+        [HttpPatch("{movieId}")]
+        public IActionResult UpdateMoviesPatch(int movieId, JsonPatchDocument<MovieDto> patchMovieDto)
+        {
+            try
+            {
+                var movie = _context.Movies.Find(movieId);
+
+                if (movie == null)
+                {
+                    return NotFound("Movie not found");
+                }
+
+                var movieDto = new MovieDto
+                {
+                    MovieId = movie.MovieId,
+                    MovieName = movie.MovieName,
+                    Genre = movie.Genre,
+                    Duration = movie.Duration,
+                    ReleaseDate = movie.ReleaseDate,
+                    Image = movie.Image
+                };
+
+                patchMovieDto.ApplyTo(movieDto, ModelState);
+
+                if(!ModelState.IsValid)
+                    return BadRequest(ModelState);
+
+                movie.MovieName = movieDto.MovieName;
+                movie.Genre = movieDto.Genre;
+                movie.Duration = movieDto.Duration;
+                movie.ReleaseDate = movieDto.ReleaseDate;
+
+                _context.Movies.Update(movie);
+                _context.SaveChanges();
+
+                return Ok();
+            }
+            catch (Exception err)
             {
                 return Problem("Error: ", err.ToString());
             }
