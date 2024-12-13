@@ -227,6 +227,16 @@ namespace MovieTicketBookingAPI.Controllers
 
                 _context.SaveChanges();
 
+                var screenTimings = _context.ScreenTimings.Where(u => u.MovieId == movieId).ToList();
+
+                foreach(var i in screenTimings)
+                {
+                    i.IsActive = false;
+
+                    _context.ScreenTimings.Update(i);
+                    _context.SaveChanges();
+                }
+
                 return Ok();
 
             }

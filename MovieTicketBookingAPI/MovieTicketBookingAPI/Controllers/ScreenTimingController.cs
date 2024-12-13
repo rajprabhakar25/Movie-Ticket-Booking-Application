@@ -48,7 +48,7 @@ namespace MovieTicketBookingAPI.Controllers
             try
             {
                 var screenTimings = _context.ScreenTimings
-                    .Where(d => d.IsActive == true && d.Theatre.TheatreId == theatreId)
+                    .Where(d => d.IsActive == true && d.Theatre.TheatreId == theatreId && d.Movie.IsActive == true)
                     .Select(d => new
                     {
                         d.TimingId,
